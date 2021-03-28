@@ -1,0 +1,72 @@
+/* .homePage{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.bg {
+    background-image: url(images/HomePage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.galleryView{
+    display: none;
+}
+
+.customNavBar{
+    background-color: #ecd863;
+}
+
+.artworkImg{
+    height: 45%;
+    margin-left: 8%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #da8072;
+  }
+  
+  .artworkView:hover .overlay {
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

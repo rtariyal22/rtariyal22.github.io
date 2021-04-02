@@ -26,7 +26,8 @@ body, html {
 }
 
 .nav-link{
-    color: white !important;
+    color: white;
+    font-size: 35px;
 }
 
 .galleryView{
@@ -70,3 +71,17 @@ body, html {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+.designLogo{
+    position: absolute;
+    margin-top: -17px;
+}
+
+.homeNav{
+  margin-left: 35%;
+  margin-top: 15%;
+}
+ 
+.homeNav a:hover{
+  color: #da8072;
+}

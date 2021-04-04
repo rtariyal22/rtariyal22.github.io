@@ -89,7 +89,6 @@ body, html {
 }
 
 .detailsImg{
-    height: 80%;
     object-fit: cover;
 }
 

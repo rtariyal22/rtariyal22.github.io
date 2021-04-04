@@ -89,7 +89,8 @@ body, html {
 }
 
 .detailsImg{
-    height: 80%
+    height: 80%;
+    object-fit: cover;
 }
 
 .leftImage{
@@ -116,5 +117,7 @@ body, html {
     display: flex;
     color: #d4c8a8;
     margin-left: 80px;
-    font-family: monospace;
+    font-family: ocr-b-std, monospace;
+    font-weight: 400;
+    font-style: normal;
 }
